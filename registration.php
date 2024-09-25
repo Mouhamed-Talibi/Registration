@@ -23,20 +23,12 @@
         $department = "";
         $age = "";
         // checking if the user write the data   
-        if (isset($_POST["id"])) {
-            $id = $_POST["id"];
-        }
-        if (isset($_POST["f-name"])) {
-            $f_name = $_POST["f-name"]; 
-        }
-        if (isset($_POST["l-name"])) {
-            $l_name = $_POST["l-name"];
-        }
-        if (isset($_POST["department"])) {
-            $department = $_POST["department"];
-        }
-        if (isset($_POST["age"])) {
-            $age = $_POST["age"];
+        if(isset($_POST['id']) && isset($_POST['f-name']) && isset($_POST['l-name']) && isset($_POST['department']) && isset($_POST['age'])){
+            $id = $_POST['id'];
+            $f_name = $_POST['f-name'];
+            $l_name = $_POST['l-name'];
+            $department = $_POST['department'];
+            $age = $_POST['age'];
         }
         // add and delete 
         $query = "";
