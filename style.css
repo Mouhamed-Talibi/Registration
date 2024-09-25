@@ -1,0 +1,51 @@
+body{
+    background-color: darkslategray;
+    font-family: Arial, Times;
+}
+aside{
+    text-align: center;
+    background-color: lightseagreen;
+    float: left;
+    font-size: 20px;
+    border: 1px solid mediumaquamarine;
+    width: 20%;
+    padding: 5px;
+}
+input{
+    border: 1px solid blue;
+    background-color: white;
+}
+aside button{
+    color: aqua;
+    background-color: darkslategray;
+}
+main{
+    width: 100%;
+}
+#table{
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    width: 1000px;
+    padding: 2px;
+    float: right;;
+}
+#table th{
+    border: 2px solid gray;
+    color: white;
+    padding: 2px;
+    background-color: darkslategray;
+}
+b{
+    color: darkslategray;
+    font-size: 20px;
+}
+strong{
+    font-size: 15px;
+    background-color: darkslategray;
+    color: #ADD8E6;
+}
+span{
+    background-color: black;
+    color: aqua;
+}
